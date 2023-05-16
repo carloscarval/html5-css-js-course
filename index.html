@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>Hellozinho</h2>
+
+    <p id="substitute">Meu paragrafo a ser substituído</p>
+    <button id="botaoNome" onclick=perguntarNome()>Perguntar nome</button>
+    <button id="botaoTemperatura" onclick=perguntarTemperaturaCelsius()>Perguntar temperatura Celsius</button>
+    <button id="botaoAluno" onclick=perguntarNotaAluno()>Perguntar nota aluno</button>
+
+
+    <!--  Lista não ordenada --> 
+    <ul>
+        <li>Maça</li>
+        <li>Banana</li>
+    </ul>
+    <!--  Lista ordenada --> 
+    <ol>
+        <li>Ana</li>
+        <li>João</li>
+    </ol>
+    <!--  Lista com descrição --> 
+    <dl>
+        <dt>Tópico</dt>
+        <dd>Descrição do tópico</dd>
+    </dl>
+
+    <!-- Tabela HTML --> 
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td>25</td>
+                <td>Nova Iorque</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>25</td>
+                <td>Nova Iorque</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>25</td>
+                <td>Nova Iorque</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" name="senha">
+        <input type="button" value="Efetuar login" id="botaoLogin" onclick=validarCredenciais()>
+    </form>
+    <br>
+    
+   <!--  Formulário lista dinâmica --> 
+    <button id="botaoGerarLista" onclick=gerarListaNumeros()>Gerar lista:</button>
+    <button id="botaoRemoverTodosItensLista" onclick=removerTodosItensLista()>Remover todos itens lista:</button>
+    <input id="elementoARemover" type="number" placeholder="Elemento a remover">
+    <input type="button" id="removerElementoEspecificoLista" value="Remover elemento" onclick=removerElementoEspecificoLista()></input>
+    
+
+
+    <ul id="listaNumeros"></ul>
+    
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css"></style>
+</body>
+</html>

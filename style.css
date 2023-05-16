@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+button {
+    background-color: yellowgreen;
+}
+
+
+h1 {
+    background-color: blanchedalmond;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px;
+    text-align: center;
+    
+}
+
+h2 {
+    background-color: rgb(248, 162, 32);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px;
+    text-align: center;
+}
+
+p {
+    background-color: red;
+}
+
+#botaoAluno {
+    background-color:blueviolet;
+}
+
+#botaoNome {
+    background-color:rosybrown;
+}
+
+#botaoTemperatura {
+    background-color:pink;
+}
+
+#botaoAtualizarLista {
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+}
+
+#elementoARemover {
+    width: 150px;
+}
