@@ -78,6 +78,15 @@ function gerarListaNumeros() {
     }
 }
 
+function mudarCorElementoEspecifico() {
+    let elemento = document.getElementById("elementoAMudarCor").value
+    if (elemento) {
+        document.getElementById(elemento).style.color = "red"
+    } else {
+        alert("Elemento não encontrado")
+    }
+}
+
 function removerTodosItensLista() {
     document.getElementById("listaNumeros").innerHTML = ""
 }
