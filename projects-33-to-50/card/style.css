@@ -1,0 +1,61 @@
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.name {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.role {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: grey;
+}
+
+.university {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.myPic {
+    display: block;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+  }
+
+.contactButton {
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color:  black;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+}
+
+.contactButton:hover {
+    background-color: #333;
+}
