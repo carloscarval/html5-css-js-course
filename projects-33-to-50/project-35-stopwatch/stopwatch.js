@@ -1,5 +1,5 @@
 const time = document.getElementById('time')
-var secondsStopwatch = 0
+var millisecondsStopwatch = 0
 
 let intervalId;
 
@@ -30,21 +30,21 @@ function resetStopwatch(event) {
     disableButton(event.target)
     enableButton(startButton)
     enableButton(stopButton)
-    secondsStopwatch = 0
+    millisecondsStopwatch = 0
     clearInterval(intervalId)
     time.textContent = '00:00:00'
 }
 
 
 function updateStopwatch() {
-    secondsStopwatch++
-    time.textContent = formatTime(secondsStopwatch)
+    millisecondsStopwatch++
+    time.textContent = formatTime(millisecondsStopwatch)
 }
 
 
 function formatTime(milliseconds) {
-    const minutes = String(Math.floor(milliseconds / 60000)).padStart(2, "0")
-    const seconds = String(Math.floor((milliseconds % 60000) / 100)).padStart(2, "0")
+    const minutes = String(Math.floor(milliseconds / 6000)).padStart(2, "0")
+    const seconds = String(Math.floor((milliseconds % 6000) / 100)).padStart(2, "0")
     const millisecondsRemaining = String(milliseconds % 100).padStart(2, "0")
   
     return `${minutes}:${seconds}:${millisecondsRemaining}`
