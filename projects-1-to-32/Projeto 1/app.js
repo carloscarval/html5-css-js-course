@@ -87,6 +87,24 @@ function mudarCorElementoEspecifico() {
     }
 }
 
+function mudarCorElementoEspecificoRandomicamente() {
+    let elemento = document.getElementById("elementoAMudarCor").value
+    if (elemento) {
+        document.getElementById(elemento).style.color = getRandomColor()
+    } else {
+        alert("Elemento não encontrado")
+    }
+}
+
+function getRandomColor() {
+    let letters = "0123456789ABCDEF"
+    let color = "#"
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)]
+    }
+    return color
+}
+
 function removerTodosItensLista() {
     document.getElementById("listaNumeros").innerHTML = ""
 }
