@@ -1,0 +1,47 @@
+body {
+    background-color: #1da0f2b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    display: block;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 18px;
+    margin-top: 460px;
+    background-color: white;
+    box-shadow: 2px 1px 15px rgba(0, 48, 63, 0.836);
+}
+
+.removeButtons {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 50, 90);
+}
+
+#button {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 50, 90);
+}
+
+#titulo {
+    margin-top: 25px;
+    color: rgb(0, 50, 90);
+}
+
+#list {
+    text-align: left;
+}
+
+#searchBar {
+    width: 140px;
+    margin-bottom: 30px;
+}
