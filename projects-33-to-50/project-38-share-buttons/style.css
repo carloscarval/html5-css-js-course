@@ -1,0 +1,37 @@
+.container {
+    display: block;
+    height: 260px;
+    width: 600px;
+    text-align: center;
+    border-color: #1da1f2;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.social-media-button {
+    color: white;
+    width: 250px;
+    height: 70px;
+    border-radius: 13px;
+    font-size: 25px;
+}
+
+#facebook-button {
+    background-color: #3b5998;
+}
+
+
+#twitter-button {
+    background-color: #1da1f2;
+}
+
+#facebook-share-button {
+    background-color: #3b5998;
+}
+
+
+#twitter-share-button {
+    background-color: #1da1f2;
+}
