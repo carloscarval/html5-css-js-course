@@ -1,0 +1,19 @@
+.container {
+    display: block;
+    height: auto;
+    width: 170px;
+    text-align: center;
+    border-color: #1da1f2;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#list {
+    text-align: left;
+}
+
+#searchBar {
+    width: 140px;
+}
